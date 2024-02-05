@@ -705,6 +705,14 @@ async def check_verification(bot, userid):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
+    if user.id in ADMINS:
+        return True
+    else:
+        pass
+    if user.id in PREMIUM_USER:
+        return True
+    else:
+        pass
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
     now = datetime.now(tz)

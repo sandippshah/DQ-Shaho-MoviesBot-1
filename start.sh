@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone git@github.com:sandippshah/DQ-Shaho-MoviesBot-1.git /DQShahoMoviesBot1
+  git clone https://github.com/Joelkb/DQ-the-file-donor.git /DQTheFileDonorBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /DQShahoMoviesBot1
+  git clone $UPSTREAM_REPO /DQTheFileDonorBot
 fi
-cd /DQShahoMoviesBot1
+cd /DQTheFileDonorBot
 pip3 install -U -r requirements.txt
-echo "Starting DQ-Shaho-MoviesBot-1...."
+echo "Starting DQ-The-File-Donor...."
 python3 bot.py

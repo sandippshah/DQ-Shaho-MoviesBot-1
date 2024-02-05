@@ -21,7 +21,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6426079137:AAG2qvKIydqeQkOjMrs48U9BMmNlXK0
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://graph.org/file/b1baaf8ae50a6d95eac69.jpg https://graph.org/file/8c2f686e35f4215cc60cf.jpg https://graph.org/file/83ac3a0d3ff2b5e269f73.jpg https://graph.org/file/51755c37add575d0a9f90.jpg https://graph.org/file/8dc6be4bc256071b56a41.jpg https://graph.org/file/176fe1285de1b58e9e3ef.jpg https://graph.org/file/28f9d5e21fa7e12a3eaaf.jpg https://graph.org/file/c8b8b365865d99b563c79.jpg https://graph.org/file/b89530d42362fc8d86ac6.jpg https://graph.org/file/a73281f86b907aaee1e99.jpg https://graph.org/file/d883480e88374b7b14e9e.jpg https://graph.org/file/8dc6be4bc256071b56a41.jpg')).split()NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/b1baaf8ae50a6d95eac69.jpg https://graph.org/file/8c2f686e35f4215cc60cf.jpg https://graph.org/file/83ac3a0d3ff2b5e269f73.jpg https://graph.org/file/51755c37add575d0a9f90.jpg https://graph.org/file/8dc6be4bc256071b56a41.jpg https://graph.org/file/176fe1285de1b58e9e3ef.jpg https://graph.org/file/28f9d5e21fa7e12a3eaaf.jpg https://graph.org/file/c8b8b365865d99b563c79.jpg https://graph.org/file/b89530d42362fc8d86ac6.jpg https://graph.org/file/a73281f86b907aaee1e99.jpg https://graph.org/file/d883480e88374b7b14e9e.jpg https://graph.org/file/8dc6be4bc256071b56a41.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
